@@ -1,0 +1,19 @@
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.servi{
+    background-color: yellow;
+    padding: 20px;
+    border: 1px solid rebeccapurple;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .servi{
+        width: 100%;
+    }
+}

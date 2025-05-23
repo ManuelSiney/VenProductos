@@ -6,7 +6,7 @@
 }
 .galeria img{
     background-color: white;
-    border: 5px solid red;
+    border: 2px dotted red;
     border-radius: 8px;
     width: 300px;
     text-align: center;
@@ -16,7 +16,7 @@
 @media (max-width: 600px) {
     .galeria img{
         object-fit: contain;
-        width: 100%;
+        width: 300px;
     }
 }
 h1{

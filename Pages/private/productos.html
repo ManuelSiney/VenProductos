@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS - Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Kablammo:MORF@7&family=Pixelify+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="image/technology.png" type="image/png">
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/productos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Byte-Store</div>
+            <ul>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="productos.html">Productos</a>
+                <a href="#" onclick="logout()">Logout</a>
+            </ul>
+            <!-- Con el div  y span crearemos un Icono tipo hamburguesa -->
+            <div class="hamburguesa">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Productos</h1>
+            <div class="contenedorProductos">
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/s/m/sm-x620n_galaxy-tab-s10-fe-plus_blue_product-image_combo_set-cut-all-1_thumb_2.png"
+                        alt="Galaxy Tab S10 FE Plus">
+                    <h2>Galaxy Tab S10 FE Plus</h2>
+                    <p>Disfruta de una experiencia de tablet premium con el Galaxy Tab S10 FE Plus.</p>
+                    <h3>Q4,999</h3>
+                    <button onclick="agregarAlCarrito(1)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/s/m/sm-s938_ef-gs938cbegww_thumb_1.png"
+                        alt="Galaxy S25 Ultra">
+                    <h2>Galaxy S25 Ultra</h2>
+                    <p>Experimenta la potencia y elegancia del Galaxy S25 Ultra.</p>
+                    <h3>Q14,999</h3>
+                    <button onclick="agregarAlCarrito(2)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/0/0/000-onlineexclusive_sm-f956_zfold6_all-name2_thumb.png"
+                        alt="Galaxy S23+">
+                    <h2>Galaxy S23+</h2>
+                    <p>Descubre el equilibrio perfecto entre rendimiento y diseño con el Galaxy S23+.</p>
+                    <h3>Q11,999</h3>
+                    <button onclick="agregarAlCarrito(3)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/0/0/000-sm-f741_zflip6-2_all_thumb_1.png"
+                        alt="Galaxy Z Flip6">
+                    <h2>Galaxy Z Flip6</h2>
+                    <p>Descubre la innovación y versatilidad del Galaxy Z Flip6, el smartphone plegable de última
+                        generación.</p>
+                    <h3>Q19,999</h3>
+                    <button onclick="agregarAlCarrito(4)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/0/0/00-sm-s928_galaxys24ultra_all-logo_thumb_1_1.png"
+                        alt="Galaxy S24 Ultra">
+                    <h2>Galaxy S24 Ultra</h2>
+                    <p>La última innovación en smartphones, con un rendimiento excepcional y una cámara de primera.</p>
+                    <h3>Q14,999</h3>
+                    <button onclick="agregarAlCarrito(5)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/q/n/qn65qn800dpxpa_000_front1_black_thumb_8.png"
+                        alt="Samsung Neo QLED 8K">
+                    <h2>Samsung Neo QLED 8K</h2>
+                    <p>Experimenta imágenes ultra nítidas y colores vibrantes con la nueva Samsung Neo QLED 8K.</p>
+                    <h3>Q29,999</h3>
+                    <button onclick="agregarAlCarrito(6)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/2/5/250_qn55qn85d_front1_graphite-black_thumb.png"
+                        alt="Samsung Neo QLED 8K">
+                    <h2>Samsung Neo QLED 4K</h2>
+                    <p>Disfruta de una calidad de imagen impresionante y tecnología avanzada con la Samsung Neo QLED 4K.
+                    </p>
+                    <h3>Q17,999</h3>
+                    <button onclick="agregarAlCarrito(7)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/r/s/rs27t5561b1ed_black_thumb_1.png"
+                        alt="Refrigerador Samsung">
+                    <h2>Refrigerador Samsung</h2>
+                    <p>Conserva tus alimentos frescos y organizados con el refrigerador Samsung de última generación.
+                    </p>
+                    <h3>Q8,999</h3>
+                    <button onclick="agregarAlCarrito(8)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/r/f/rf22a4220s9-ap_001_front_silver_thumb.png"
+                        alt="Refrigerador Samsung">
+                    <h2>Refrigerador Samsung</h2>
+                    <p>Disfruta de la tecnología avanzada y el diseño elegante del refrigerador Samsung.</p>
+                    <h3>Q9,499</h3>
+                    <button onclick="agregarAlCarrito(9)">Añadir al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/45eacecef37c2d34dea6bd1d0132e77c/i/m/imagen-1_thumb.png"
+                        alt="bombilla inteligente Samsung">
+                    <h2>Bombilla Inteligente Samsung</h2>
+                    <p>Ilumina tu hogar de forma inteligente y eficiente con la bombilla inteligente Samsung,
+                        controlable desde tu smartphone.</p>
+                    <h3>Q299</h3>
+                    <button onclick="agregarAlCarrito(10)">Añadir al carrito</button>
+                </div>
+
+            </div>
+
+            <div id="carrito">
+                <h2>Carrito de Compra</h2>
+                <ul id="listaProductos"></ul>
+                <p>
+                    <strong>Total:</strong>
+                    <span id="total">0</span>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2025 byte-store. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../../JS/carrito.js"></script>
+    <script src="../../JS/script.js"></script>
+    <script src="../../JS/logout.js"></script>
+</body>
+
+</html>
